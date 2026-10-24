@@ -28,6 +28,6 @@ AllowTcpForwarding no
 
 ## Phase 3 — Vérification finale depuis Kali
 
-- **Étape 7 :** `nmap -sV -p 22,2222 192.168.56.10` → port 22 inaccessible, port 2222 accessible.
+- **Étape 7 :** `nmap -sV -p 22,2222 192.168.122.49` → port 22 and port 2222 are inaccessible.
 - **Étape 8 :** Connexion par mot de passe refusée (`PasswordAuthentication no`).
 - **Étape 9 :** Connexion directe de `root` refusée (`PermitRootLogin no`).
